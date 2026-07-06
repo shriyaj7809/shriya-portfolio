@@ -1,41 +1,41 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Shriya Jegannathan",
+  title: "Student at Memorial High School | Frisco, TX | Class of 2027",
+  description: "Portfolio website of Shriya Jegannathan",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "shriyajegan@gmail.com",
+    linkedin: "https://www.linkedin.com/in/shriya-jegannathan-b219a6376/",
+    tiktok: "https://www.tiktok.com/@shriyatalks",
+    github: "https://github.com/shriyaj7809",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m Shriya Jegannathan, a student at Memorial High School in Frisco, Texas passionate about electrical and computer engineering, cybersecurity, and using technology to solve real-world problems. I build projects at the intersection of digital safety, innovation, and community impact while also leading student organizations, competing in business and STEM events, and sharing accessible tech education online!",
+  skills: ["Python", "CAD", "Cybersecurity", "Wireshark"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Personalized Running GPT",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A personalized running coach that uses AI to provide tailored training plans, track progress, and offer real-time feedback for runners of all levels.",
+      link: "https://www.linkedin.com/in/shriya-jegannathan-b219a6376/overlay/Project/330252108/treasury/?profileId=ACoAAF0NJMkBJZnAII2FW1dyIikDZxC6H7JLO18&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BhLmt0EDmQxee%2Fk1KS6BYGA%3D%3D",
+      skills: ["Python", "Machine Learning", "AI"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Flood-Resilient Transportation Networks Research",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An infrastructure resilience study investigating false redundancy in city transportation networks when supposedly independent backup routes to hospitals, fire stations, and evacuation centers share the same flood-prone roads. Using GIS flood data and network analysis, the project identifies hidden chokepoints and models how extreme weather can disrupt access to critical services. Mentored by Mercer University civil engineering professor Dr. Eazas Sadeghvaziri.",
+      //link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: ["GIS Mapping", "Network Analysis", "Water Resources Engineering"],
     },
     {
-      name: "ExtensionKit",
+      name: "Profiles in Courage 2026 Finalist",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Selected as a national Top 20 finalist out of 2,000+ entries in the John F. Kennedy Profile in Courage Essay Contest for an original biography analyzing political leadership and acts of courage in public service.",
+      link: "https://www.jfklibrary.org/sites/default/files/2026-05/2026%20Profile%20in%20Courage%20Essay%20-%20Contest%20Winners%20for%20Web.pdf?odc=20260511110520-0400",
+      skills: ["Research", "Writing", "Political Science"],
     },
   ],
-  experience: [
+  /*experience: [
     {
       company: "Tech Company",
       title: "Senior Software Engineer",
@@ -66,19 +66,24 @@ export const siteConfig = {
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
-  ],
+  ],*/
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Memorial High School | Frisco, TX",
+      degree: "High School Diploma (Advanced Placement (AP) Courses with focus on Computer Science, Engineering, Cybersecuriy, Math, and Physics)",
+      dateRange: "2023-2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Summa Cum Laude (Top 10% of class)",
+        "Class rank of 24/317 students",
+        "Weighted GPA of 5.09 and Unweighted GPA of 3.96",
+        "AP Scholar with Distinction (5+ AP Exams with scores of 3 or higher)",
+        "Selected for Independent Study and Mentorship Program for Cybersecurity",
+        "President of BPA (Business Professionals of America)",
+        "Varsity Orchestra",
+        "Varsity Cross Country / Track & Field",
       ],
     },
-    {
+    /*{
       school: "Online Platform",
       degree: "Full Stack Development Certificate",
       dateRange: "2019",
@@ -87,6 +92,6 @@ export const siteConfig = {
         "Built 10+ portfolio projects",
         "Specialized in React and Node.js",
       ],
-    },
+    },*/
   ],
 };
